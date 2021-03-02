@@ -389,14 +389,52 @@ if ($dispositivo == 0) : ?>
                     <?php if ($typemenu == 'campings') :
 
                                 if ($itemId == 2355) :
-                                    echo '<div class="row">';
-                                    echo '<di class="col-12 bg-white blocrassure" >';
-                                    echo '<div  class="row text-center bluetext  pl-2 my-3">';
-                                    echo '	<div class="col-3  pl-0  "> <h6 class="py-4"><img class="pr-2" src="https://www.mmv.fr/images/icones/icons8-change-euro-30.png"><span class="pt-2">Séjour garanti ou remboursé​</span></h6></div>';
-                                    echo '<div class="col-3"> <h6 class="py-4"><img src="https://www.mmv.fr/images/icones/icons8-garantie-30_3.png">Garantie Meilleur Prix</h6></div>';
-                                    echo ' <div class="col-3 "> <h6 class="py-4"><img class="pr-2" src="https://www.mmv.fr/images/icones/icons8-carte-en-cours-dutilisation-30_1.png">Paiement en 2 fois</h6></div>';
-                                    echo '	 <div class="col-3  px-0"> <h6 class="py-4"><img class="pr-2" src="https://www.mmv.fr/images/icones/icons8-lire-un-message-30.png"><span class="">Paiement ANCV</span> 
-											 </div> </div> </di> </div>';
+                                    echo '<div class="row pb-5 pt-2">
+                                        <div class="col-12 bg-white p-0" style="border-radius: 2px; box-shadow: 0px 0px 8px rgba(0,0,0,0.075);">
+                                            <div class="row text-center bluedtext py-2">
+                                                <div class="col-sm mt-2 ml-2">
+                                            <div class="text-left float-left"><img src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-remboursement.png" class="m-0 pr-2" />
+                                         </div>
+                                        <div class="text-left float-left">
+                                            <p class="bluetext mt-0 mb-0"><strong>Séjour garanti ou remboursé​</strong></p>
+                                            <form action="/assurance/"><button class="small bluetext m-0 p-0"
+                                                    style="border: 0; background: transparent; cursor: pointer;">+ d&#039;infos</button></form>
+
+                                        </div>
+                                    </div>
+                                        <div class="col-sm mt-2">
+                                            <div class="text-left float-left"><img src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-safe-with-us.png" class="m-0 pr-2" />
+                                            </div>
+                                            <div class="text-left float-left">
+                                                <p class="bluetext mt-0 mb-0"><strong>Protocole "Safe with us"</strong></p>
+                                                <form action="/assurance/"><button class="small bluetext m-0 p-0"
+                                                        style="border: 0; background: transparent; cursor: pointer;">+ d&#039;infos</button></form>
+                                            </div>
+                                        </div>
+                                            <div class="col-sm mt-2">
+                                                <div class="text-left float-left"><img src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-assurance-covid-incluse.png"
+                                                        class="m-0 pr-2" /></div>
+                                                <div class="text-left float-left">
+                                                    <p class="bluetext mt-0 mb-0"><strong>Nouvelle assurance annulation<br />(risque COVID
+                                                            inclus)</strong></p>
+                                                    <form action="/assurance/"><button class="small bluetext m-0 p-0"
+                                                            style="border: 0; background: transparent; cursor: pointer;">+ d&#039;infos</button></form>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm mt-2">
+                                                <div class="text-left float-left"><img src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-safe-with-us.png" class="m-0 pr-2" />
+                                                </div>
+                                                <div class="text-left float-left">
+                                                    <p class="bluetext mt-0 mb-0"><strong>Paiement 2 fois sans frais<br />(chèques vacances
+                                                            acceptés)</strong></p>
+                                                </div>
+                                            </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>';
 
 
                                 endif;
@@ -467,35 +505,62 @@ if ($dispositivo == 0) : ?>
     <?php if ($this->countModules('carte')) : ?>
     <aside id="carte" class="bluebackground">
         <div class="container">
-            <div class="row">
-                <di class="col-12 blocrassureHommePage bg-white pl-0">
-                    <div class="row text-center bluedtext pl-0 my-1">
-                        <div class="col-3  pl-0  ">
-                            <h6 class="py-4"><img class="pr-2"
-                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icons8-change-euro-30_1.png"><span
-                                    class="pt-2">Séjour garanti <br> <span class="pl-4"> ou remboursé&#8203;</span></h6>
-                        </div>
-                        <div class="col-3">
-                            <h6 class="py-4"><img
-                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icons8-garantie-30_5.png">Garantie
-                                <br>
-                                <span class="pl-4"> Meilleur Prix </span>
 
-                            </h6>
+            <div class="row">
+                <div class="col-12 bg-white p-0" style="border-radius: 2px; box-shadow: 0px 0px 8px rgba(0,0,0,0.075);">
+                    <div class="row text-center bluedtext py-2">
+                        <div class="col-sm mt-2 ml-2">
+                            <div class="text-left float-left"><img
+                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-remboursement.png"
+                                    class="m-0 pr-2" />
+                            </div>
+                            <div class="text-left float-left">
+                                <p class="bluetext mt-0 mb-0"><strong>Séjour garanti ou remboursé​</strong></p>
+                                <form action="/assurance/"><button class="small bluetext m-0 p-0"
+                                        style="border: 0; background: transparent; cursor: pointer;">+ d'infos</button>
+                                </form>
+
+                            </div>
                         </div>
-                        <div class="col-3 ">
-                            <h6 class="py-4"><img class="pr-2"
-                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icons8-carte-en-cours-dutilisation-40.png">Paiement
-                                en 2 fois <br> <span class="pl-4"> CB, Master Card, Visa </span> </h6>
+                        <div class="col-sm mt-2">
+                            <div class="text-left float-left"><img
+                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-safe-with-us.png"
+                                    class="m-0 pr-2" />
+                            </div>
+                            <div class="text-left float-left">
+                                <p class="bluetext mt-0 mb-0"><strong>Protocole "Safe with us"</strong></p>
+                                <form action="/assurance/"><button class="small bluetext m-0 p-0"
+                                        style="border: 0; background: transparent; cursor: pointer;">+ d'infos</button>
+                                </form>
+                            </div>
                         </div>
-                        <div class="col-3  px-0">
-                            <h6 class="py-4"><img class="pr-2"
-                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icons8-lire-un-message-25.png"><span
-                                    class="">Chéques vacances <br> <span class="pr-5"> acceptés </span>
-                            </h6>
+                        <div class="col-sm mt-2">
+                            <div class="text-left float-left"><img
+                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-assurance-covid-incluse.png"
+                                    class="m-0 pr-2" /></div>
+                            <div class="text-left float-left">
+                                <p class="bluetext mt-0 mb-0"><strong>Nouvelle assurance annulation<br />(risque COVID
+                                        inclus)</strong></p>
+                                <form action="/assurance/"><button class="small bluetext m-0 p-0"
+                                        style="border: 0; background: transparent; cursor: pointer;">+ d'infos</button>
+                                </form>
+                            </div>
                         </div>
+
+                        <div class="col-sm mt-2">
+                            <div class="text-left float-left"><img
+                                    src="https://sitenew.preprod.mmv.resalys.com/images/icones/icon-paiement-2-fois.png"
+                                    class="m-0 pr-2" />
+                            </div>
+                            <div class="text-left float-left">
+                                <p class="bluetext mt-0 mb-0"><strong>Paiement 2 fois sans frais<br />(chèques vacances
+                                        acceptés)</strong></p>
+                            </div>
+                        </div>
+
+
                     </div>
-                </di>
+                </div>
             </div>
         </div>
     </aside>
@@ -693,16 +758,9 @@ if ($dispositivo == 0) : ?>
         <jdoc:include type="modules" name="vosgaranties" />
     </aside>
     <?php endif; ?>
-    <?php if ($this->countModules('clubs') and $itemId == 2402) : ?>
-    <div class="titleclubsmmv d-flex align-items-center container bluedtext">
-        <h2 class="float-left "><strong> 20 Clubs </strong><span class="mmvfont"> mmv</span> <br></h2><span
-            class=" ">Lequel sera votre préféré ?</span>
 
-    </div>
-    <aside id="clubs" class="m-0">
-        <jdoc:include type="modules" name="clubs" />
-    </aside>
-    <?php endif; ?>
+
+
     <footer id="backgroundfooter">
         <?php if ($this->countModules('ressurence')) : ?>
         <aside id="ressurence" class="container">
