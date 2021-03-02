@@ -99,22 +99,22 @@ echo '</h2>';
 if ($mobile == 1) :
 
     if ($item->urlsaison != '') : ?>
-<div class="col-5 colEteHiver">
-    <a class="temporadas  <?php if ($saison == 1) : echo "active";
+        <div class="col-5 colEteHiver">
+            <a class="temporadas  <?php if ($saison == 1) : echo "active";
                                     endif; ?> " href="<?php if ($saison == 1) :
                                                             echo "#";
                                                         else :
                                                             echo $host . $lang . '/' . $item->urlsaison;
                                                         endif;
                                                         ?> ">Hiver</a>
-    <a class="temporadas <?php if ($saison == 2) : echo "active";
+            <a class="temporadas <?php if ($saison == 2) : echo "active";
                                     endif; ?> " href="<?php if ($saison == 1) :
                                                             echo $host . $lang . '/' . $item->urlsaison;
                                                         else :
                                                             echo "#";
                                                         endif;
                                                         ?> ">Été</a>
-</div>
+        </div>
 <?php endif;
 
     // OVERTURE FERMATURE MOBILE
@@ -212,8 +212,8 @@ endif;
 
 <!-- <script>printGalerieNew(<?php echo $codeCRM; ?> , <?php echo $saison; ?>, 'club', '#galerieOngletPrincipal');</script> -->
 <script>
-printGalerie(<?php echo $codeCRM; ?>, 'images/etablissements/<?php echo $item->alias; ?>/onglet_principal',
-    '#galerieOngletPrincipal', '', '<?php echo $item->alias; ?>', 'onglet_principal');
+    printGalerie(<?php echo $codeCRM; ?>, 'images/etablissements/<?php echo $item->alias; ?>/onglet_principal',
+        '#galerieOngletPrincipal', '', '<?php echo $item->alias; ?>', 'onglet_principal');
 </script>
 
 
@@ -454,14 +454,10 @@ endif;
 
 echo '<button type="button" class="btn btnservice col-12 col-lg-5 greyc2background p-3 mr-1 mt-4 greytext" data-toggle="modal" data-target="#servicesinclus">
 <p><img src="' . $hostimg . '/images/icons/services-not-inclus.png" alt="" title="" class="pr-2" />
-
 ' . JText::_('COM_CAMPINGS_VOTRE_CLUB_VOTRES_SERVICES_INCLUS') . '
-
 </p></button>';
 echo '<button type="button" class="btn btnservice col-12 col-lg-6 greyc2background p-3 mr-3 mt-4 greytext" data-toggle="modal" data-target="#servicesNotinclus"><p><img src="' . $hostimg . '/images/icons/services-inclus.png" alt="" title="" class="pr-2" />
-
 ' . JText::_('COM_CAMPINGS_VOTRE_CLUB_VOTRES_SERVICES_CARTE') . '
-
 </p></button>';
 
 
@@ -633,7 +629,7 @@ function htmlapartemanetsresidence($appartements, $stringSaison, $host, $lang, $
 
             echo '<div class="row mr-1">';
 
-            echo '<div class="col-12 col-lg-10">';
+            echo '<div class="col-12 col-lg-12">';
 
             echo '<div class="appartement-type">';
             if ($appartement->OFfExtGamme != '') :
@@ -666,16 +662,15 @@ function htmlapartemanetsresidence($appartements, $stringSaison, $host, $lang, $
                 }
                 echo '<span class="tipoappartement ' . $textcolor . ' ' . $backcolor . ' ">' . $appartement->OFfExtGamme . '</span>';
             endif;
+            echo '<button style="background-color: transparent;" type="button" class="button-appartement btn" data-toggle="modal" data-target="#' . $appartement->Reference . '"><img style="
+    margin-bottom: 20px;" src="' . $hostimg . '/images/icons/info.png" alt="" title="" class="" /></button>';
             echo '</div>';
             echo '<div class="row appartement-caract">';
             echo '<div class="col-4">';
             echo '<div class="row">';
             echo '<div class="col-4"><img src="' . $hostimg . '/images/icons/picto-pi-ces.png" alt="' . $appartement->OFfExtNbPiece . '" title="' . $appartement->OFfExtNbPiece . '" /></div>';
             echo '<div class="col-8 pl-2 pr-0"><p class="tipo-num">' . $appartement->OFfExtNbPiece . '</p><p class="tipo-text">
-
-
 								' . JText::_(COM_CAMPINGS_VOTRE_CLUB_PIECES) . '
-
 								</p></div>';
             echo '</div>';
             echo '</div>';
@@ -683,9 +678,7 @@ function htmlapartemanetsresidence($appartements, $stringSaison, $host, $lang, $
             echo '<div class="row">';
             echo '<div class="col-4"><img src="' . $hostimg . '/images/icons/picto-personnes-2.png" alt="' . $capacite . '" title="' . $capacite . '" /></div>';
             echo '<div class="col-8 pl-3 pr-0"><p class="tipo-num">' . $capacite . '</p><p class="tipo-text">
-
 								' . JText::_(COM_CAMPINGS_VOTRE_CLUB_PERS) . '
-
 								</p></div>';
             echo '</div>';
             echo '</div>';
@@ -697,9 +690,9 @@ function htmlapartemanetsresidence($appartements, $stringSaison, $host, $lang, $
             echo '</div>';
             echo '</div>';
             echo '</div>';
-            echo '<div class="col-12 col-lg-2 bluecbackground p-0">';
-            echo '<button type="button" class="button-appartement btn" data-toggle="modal" data-target="#' . $appartement->Reference . '"><img src="' . $hostimg . '/images/icons/info.png" alt="" title="" class="" /></button>';
-            echo '<button type="button" class="button-appartement btn" onclick="triggerClick(\'.tabTarifs a\');" ><img src="' . $hostimg . '/images/icons/lupa.png" alt="" title="" class="" /></button>';
+            echo '<div class="col-12 col-lg-12  p-0" style="text-align: end;">';
+
+            echo '<button style="padding: 2px 5px 0px;font-size: 14px;" type="button" class=" btn yellowbackground" onclick="triggerClick(\'.tabTarifs a\');" ><span>TARIFS ET DISPO</span></button>';
             echo '</div>';
             echo '</div>';
 
@@ -795,7 +788,6 @@ function htmlapartemanetshotel($appartements, $stringSaison, $host, $lang, $host
             echo '<div class="row">';
             echo '<div class="col-4"><img src="' . $hostimg . '/images/icons/picto-personnes-2.png" alt="' . $capacite . '" title="' . $capacite . '" /></div>';
             echo '<div class="col-8 pl-3 pr-0"><p class="tipo-num">' . $capacite . '</p><p class="tipo-text">
-
 							' . JText::_(COM_CAMPINGS_VOTRE_CLUB_PERS) . '
 							</p></div>';
             echo '</div>';
@@ -868,12 +860,12 @@ echo '</div>';
 ?>
 <!-- Cambio de Lire la suite para Voir Moins en las fichas de estabelecimentos -->
 <script>
-function myFunction() {
-    var x = document.getElementById("lire");
-    if (x.innerHTML == '<i class="fas fa-chevron-right"></i> <?php echo JText::_('COM_CAMPINGS_LIRELASUIT'); ?>') {
-        x.innerHTML = '<i class="fas fa-chevron-right"></i> <?php echo JText::_('COM_CAMPINGS_VOIRMOINS'); ?>';
-    } else {
-        x.innerHTML = '<i class="fas fa-chevron-right"></i> <?php echo JText::_('COM_CAMPINGS_LIRELASUIT'); ?>';
-    }
-};
+    function myFunction() {
+        var x = document.getElementById("lire");
+        if (x.innerHTML == '<i class="fas fa-chevron-right"></i> <?php echo JText::_('COM_CAMPINGS_LIRELASUIT'); ?>') {
+            x.innerHTML = '<i class="fas fa-chevron-right"></i> <?php echo JText::_('COM_CAMPINGS_VOIRMOINS'); ?>';
+        } else {
+            x.innerHTML = '<i class="fas fa-chevron-right"></i> <?php echo JText::_('COM_CAMPINGS_LIRELASUIT'); ?>';
+        }
+    };
 </script>
