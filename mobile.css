@@ -1,0 +1,3040 @@
+/** autor Cristina Gutierrez **/
+
+
+/** date 08-01-2019 **/
+
+
+/** ODESIA **/
+
+.menuprinccont {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.webmobile .menuprinccont .navbar-fixed-top {
+    box-shadow: 1px 1px 15px #00000047;
+}
+
+.webmobile.article .menuprinccont .navbar-fixed-top {
+    box-shadow: none;
+}
+
+.webmobile.etablessiment .menuprinccont .fixed-top {
+    top: -3px;
+    padding: 5px 20px 0;
+}
+
+.webmobile.etablessiment .partbienetre>div>div,
+.partanimation {
+    padding: 30px;
+}
+
+.menuprinccont .navbar .container {
+    padding: 0;
+}
+
+.navbar.menuprincipal {
+    background-color: #fff!important;
+}
+
+#slidehome img {
+    max-width: 100%;
+    height: auto;
+    min-height: 440px;
+    max-height: 440px;
+    min-width: 100%;
+}
+
+.slickContentPromos {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.pagescmscontent {
+    margin: -283px auto 0;
+}
+
+.webmobile .pagescmscontent h3 {
+    font-size: 21px;
+}
+
+.recherchercms {
+    margin: 0 auto 0;
+}
+
+.rechercherfilter {
+    top: 0;
+    display: none;
+    overflow-y: scroll;
+    z-index: 9999;
+}
+
+.rechercherfilter.open {
+    display: block;
+}
+
+.landingpage .contentheaderslidebottom,
+#rechercher .contentheaderslidebottom {
+    padding: 80px 0 30px;
+    text-align: center;
+    position: relative;
+}
+
+.cms .contentheaderslidebottom {
+    padding: 10px 10px 30px;
+    text-align: center;
+    position: relative;
+}
+
+.recherchermobile {
+    position: fixed;
+    top: 0;
+    display: none;
+    overflow-y: scroll;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(48, 82, 146, 1);
+    height: 100%;
+}
+
+.recherchermobile.open {
+    margin: 0 -10px;
+    display: block;
+}
+
+.containerHebergement {
+    padding: 0!important;
+}
+
+.closrecherchersmobile {
+    background-color: #0d2146;
+}
+
+#headerficha .titleville {
+    position: relative;
+}
+
+#contentfichaslide.contentfichaslidemobile {
+    position: relative;
+    z-index: 1;
+}
+
+#headerficha .titleville {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contentfichaslide.contentfichaslidemobile .imgficha {
+    max-width: 100%;
+    max-height: auto!important;
+}
+
+#headerficha {
+    min-height: 900px!important;
+    height: auto!important;
+}
+
+.reservesmenumobile {
+    display: none;
+}
+
+.reservesmenumobile.open {
+    display: block;
+}
+
+.navbar-collapse {
+    height: 100vh;
+}
+
+.linksficha.fixed {
+    top: 54px!important;
+}
+
+
+/*** MENU MOBILE ***/
+
+.webmobile .headerpageetab {
+    z-index: 9999;
+}
+
+.webmobile.article.modal-open .leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+    left: -144px!important;
+    top: -190px !important;
+    width: 293px;
+}
+
+.webmobile .leaflet-popup-content {
+    margin: 15px!important;
+}
+
+.webmobile .leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+    left: -140px!important;
+    width: 290px;
+    top: -115px !important;
+}
+
+.webmobile #rechercherslide {
+    max-height: 440px;
+}
+
+.webmobile.etablessiments #rechercherslide>.container {
+    padding: 0;
+}
+
+.webmobile.etablessiments .resultsmobilecontainer,
+.webmobile.etablessiments .resulsbusquedamobile,
+.webmobile.etablessiments #resultsrechercher .tab-pane.in.active>.container {
+    padding: 0;
+}
+
+.webmobile.etablessiments .resultsmobilecontainer>.row {
+    margin: 0;
+}
+
+.webmobile.etablessiments .votrecluboffretop {
+    padding: 5px 15px 10px!important;
+}
+
+.webmobile .votrecluboffretop {
+    padding: 5px 25px 10px!important;
+    min-height: 45px;
+    margin-bottom: 0px!important;
+}
+
+.webmobile .containerHebergement .row.mt-5 {
+    margin-top: 1rem!important;
+}
+
+.webmobile.cms .containerHebergement>.row:first-child {
+    margin-bottom: 20px;
+}
+
+.webmobile .votrecluboffretop span {
+    font-size: 10px;
+    display: block;
+    margin: 2px 6px!important;
+    padding: 4px 8px!important;
+    float: left;
+}
+
+.webmobile.etablessiments .containerHebergement .descriptiontext {
+    padding: 10px 15px;
+}
+
+.webmobile.etablessiments #resultsrechercher .containerHebergement .public-price {
+    /* flex: 0 0 33.333333%;
+    max-width: 33.333333%; */
+    padding: 20px 7px 10px!important;
+    border-top: 0;
+}
+
+.webmobile.etablessiments #resultsrechercher .containerHebergement .columns-roomtype {
+    border-bottom: 0;
+}
+
+.webmobile.etablessiments #resultsrechercher .containerHebergement .columns-roomtype .col-1 {
+    padding: 0;
+}
+
+.webmobile.etablessiments #resultsrechercher .public-price span.prixappglob {
+    font-weight: 900;
+}
+
+.webmobile.etablessiments #resultsrechercher .public-price span.prixappglob {
+    /* font-size: 16px; */
+    font-size: 24px;
+    letter-spacing: 0;
+    padding: 0px 0 0px 0;
+    line-height: 0;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.webmobile.etablessiments #resultsrechercher .public-price span.prixapp {
+    font-size: 10px;
+}
+
+.webmobile.etablessiments #resultsrechercher .public-price span.descountTarifs {
+    font-size: 11px;
+}
+
+.webmobile.etablessiments #resultsrechercher .public-price span.prixper {
+    font-size: 13px;
+    text-align: center;
+}
+
+.webmobile.etablessiments .containerHebergement .nav-tabs .nav-item {
+    max-width: 50%;
+}
+
+.webmobile.etablessiments #resultsrechercher .public-price span.publicpricesansdesc {
+    font-size: 15px;
+    float: left;
+}
+
+.webmobile.etablessiments #resultsrechercher .containerHebergement .row>.reserveztext {
+    /* flex: 0 0 66.666667%;
+    max-width: 66.666667%; */
+    padding: 25px 6px 17px;
+    background-color: #0f8fd1;
+}
+
+.webmobile.etablessiments #resultsrechercher .reserveztext .reserveztext,
+.webmobile.etablessiments #resultsrechercher .reserveztext .prixdisc {
+    color: #fff;
+}
+
+.webmobile.etablessiments .tab-pane.active>.container>.row {
+    margin: 0;
+}
+
+.webmobile.etablessiments #resultsrechercher .nav-tabs .nav-link {
+    padding: 10px 15px 10px!important;
+}
+
+.webmobile.etablessiments #resultsrechercher .accordion_body>.container {
+    padding: 0 10px!important;
+}
+
+.webmobile #navmenuprincipal {
+    height: 100%;
+    position: fixed;
+    top: 8%;
+    width: 102%;
+    padding: 10px 0px;
+    margin: 0px -20px;
+    background: url('https://media.resalys.com/mmv_new/images/home/backhiver.png');
+}
+
+.webmobile #navmenuprincipal .nav-item,
+.webmobile #navmenuprincipal .dropdown {
+    padding: 20px 20px!important;
+    border-bottom: 1px solid #042b73;
+}
+
+.webmobile #navmenuprincipal>.navbar-nav>.nav-item>.nav-link:hover {
+    margin: 0;
+    border-bottom: none!important;
+}
+
+.webmobile #navmenuprincipal a {
+    padding: 0!important;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.webmobile #navmenuprincipal .nav-link:before,
+.webmobile #navmenuprincipal .dropdown-toggle:before {
+    display: none;
+}
+
+.webmobile #navmenuprincipal .dropdown.show {
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.webmobile #navmenuprincipal .navbar-nav .dropdown.show:nth-child(2),
+.webmobile #navmenuprincipal .navbar-nav .dropdown.show:nth-child(1) {
+    margin-bottom: 190px;
+}
+
+
+/* .webmobile #navmenuprincipal .dropdown.show:first-child {
+    margin-bottom:90px;
+ } */
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show {
+    text-align: left;
+    padding: 10px 20px;
+    margin-top: 21px;
+    border-bottom: 1px solid #0d214636;
+    background-color: #eaeaea47;
+    height: auto;
+    max-height: 140px;
+    overflow: auto;
+    opacity: 1;
+}
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu2400,
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu2401 {
+    max-height: 190px!important;
+}
+
+.webmobile .linkvosenvies {
+    display: block;
+}
+
+.webmobile #navmenuprincipal .dropdown-menu {
+    top: 44px!important;
+}
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show .row {
+    padding: 0!important;
+}
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show .linkvosenvies img {
+    padding-top: 0px!important;
+    width: 60px;
+}
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show .linkvosenvies div.float-left {
+    width: 60%;
+}
+
+
+/* .webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies .imgmenureshot, .webmobile #navmenuprincipal .dropdown-menu2401 .linkvosenvies .imgmenureshot{
+    width:70%!important;
+    max-width:180px!important;
+ } */
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show .linkvosenvies p {
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+/* .webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies p, .webmobile #navmenuprincipal .dropdown-menu2401 .linkvosenvies p {
+    margin-top: -2px!important;
+    padding: 0px 8px;
+ } */
+
+.webmobile #navmenuprincipal .dropdown-menu2401 .linkvosenvies p .bluetext,
+.webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies p .greentext {
+    color: white!important;
+}
+
+.webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies p .text-uppercase {
+    color: black;
+}
+
+.webmobile #navmenuprincipal .dropdown-menu .lienreshotmenu {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show .row>div {
+    padding: 0px 0px 6px 0px!important;
+}
+
+
+/* .webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show a{
+    margin-bottom:20px;
+ }
+ .webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show a:last-child{
+    margin-bottom: 0;
+ } */
+
+.webmobile #navmenuprincipal .dropdown-menu.show .moduletable {
+    margin-top: 0;
+}
+
+.webmobile #navmenuprincipal .dropdown-menu.show a.promotionhoverclub {
+    display: none;
+}
+
+
+/**** HOME ****/
+
+.webmobile {
+    font-family: 'Nunito Sans', sans-serif!important;
+}
+
+.webmobile .top-telf img,
+.webmobile .avistelf img {
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.webmobile .navbar-toggler {
+    padding: .25rem 0px;
+}
+
+.webmobile .navbar-toggler-icon {
+    height: 27px;
+    font-size: 23px;
+    color: white;
+}
+
+.webmobile .navbar-toggler-icon-blue {
+    height: 27px;
+    font-size: 25px;
+    color: #009cda;
+}
+
+.webmobile .navbar-header a:first-child img {
+    padding-right: 20px!important;
+    padding-left: 20px!important;
+}
+
+.webmobile .openreservasmenumobile {
+    background-color: #fdc513;
+    border: 1px solid #fdc513;
+    font-weight: 900;
+    font-size: 12px;
+    padding: 7px 10px 5px;
+    cursor: pointer;
+    letter-spacing: -0.5px;
+}
+
+.webmobile .openreservasmenumobile:hover {
+    background-color: transparent;
+    border: 2px solid #fdc513;
+}
+
+.webmobile #rechercher .descTitle {
+    padding: 160px 0 0px;
+}
+
+.webmobile #contentrechercherslide {
+    height: 1165px;
+}
+
+.webmobile .titleespritclubs {
+    margin-top: 40px;
+}
+
+.webmobile #rechercher .descTitle .Partez-tout-schuss {
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 38px;
+    text-shadow: 2px 1px 3px #00000073;
+}
+
+.webmobile #rechercher h1 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: -5px;
+    text-shadow: 2px 1px 3px #00000073;
+}
+
+.webmobile .colEteHiver {
+    margin: 20px 0 100px;
+    flex: 0 0 35%;
+    min-width: 120px;
+}
+
+.webmobile .dernieretext h4 {
+    font-size: 20px;
+}
+
+.webmobile #clubs .slickContent>a {
+    min-height: 425px;
+}
+
+.webmobile #promotions .tag,
+.webmobile .tipopromotion .lespromotions .tag {
+    top: 18px;
+    left: 18px;
+}
+
+.webmobile #promotions .discont,
+.webmobile .tipopromotion .lespromotions .discont {
+    left: initial;
+    right: 20px;
+    top: 21px;
+    font-size: 36px;
+}
+
+.webmobile .slickContentPromos {
+    max-height: 170px;
+}
+
+.webmobile .slickContentBrochure {
+    max-height: 100%;
+}
+
+.webmobile #promotions .dernieretext p,
+.webmobile .tipopromotion .lespromotions .dernieretext p {
+    font-size: 16px;
+}
+
+.webmobile #promotions .dernieretext h3,
+.webmobile .tipopromotion .lespromotions .dernieretext h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.webmobile #promotions .slickContent img,
+.webmobile #promotions .slickContent a {
+    width: 100%;
+}
+
+.webmobile #clubs {
+    margin-top: 20px;
+}
+
+.webmobile #clubs>p {
+    font-size: 18px;
+}
+
+.webmobile #clubs>h2 {
+    font-size: 29px;
+    margin-bottom: 3px;
+}
+
+.webmobile #clubs .slick-track {
+    padding: 15px 0 0;
+}
+
+.webmobile #clubs .container {
+    min-height: 460px;
+}
+
+.webmobile #clubs .slickContent .contentimg {
+    height: 210px;
+}
+
+.webmobile #clubs .slickclubs,
+.webmobile #espritclub {
+    padding-right: 0px;
+}
+
+.webmobile #clubs .slickContent,
+.webmobile #espritclub .slickContent {
+    min-width: 300px;
+    max-width: 300px;
+    padding: 7px;
+}
+
+.webmobile #espritclub .slickContent .textocult p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.webmobile #clubs .slickContent .contentimg img {
+    min-height: 210px;
+}
+
+.webmobile #clubs .offresSlick .slick-next {
+    right: 27px;
+}
+
+.webmobile #clubs .offresSlick .slick-prev:before {
+    margin-left: 3px;
+}
+
+.webmobile #clubs .PromotionClub.slick-slide a img {
+    min-height: 430px;
+}
+
+.webmobile #clubs .slickContent.PromotionClub .promotionhoverclub {
+    width: 87%;
+    margin-left: 17%;
+}
+
+.webmobile #clubs .slickContent.PromotionClub .promobutton {
+    width: 64%;
+}
+
+.webmobile #modalMapResults .modal-dialog {
+    max-width: 345px!important;
+    margin: 20px auto;
+    margin-top: 35px!important;
+}
+
+.webmobile #mapModalHome .leaflet-popup-content-wrapper {
+    border-radius: 10px !important;
+}
+
+.webmobile #mapModalHome {
+    max-height: 540px;
+}
+
+.webmobile .divBtnCarte {
+    margin: 10px 0 50px 15px;
+}
+
+.webmobile #promotionsresults {
+    padding: 0 10px;
+    background-color: transparent;
+}
+
+.webmobile #promotions .promotions-button {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.webmobile .titleespritclubs h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #1b438e;
+}
+
+.webmobile .titleespritclubs h2 strong {
+    font-weight: 900;
+}
+
+.webmobile #espritclub .slick-track {
+    padding: 10px 0 15px;
+}
+
+.webmobile #espritclub .slickContent .contentimg {
+    max-height: 350px;
+}
+
+.webmobile #espritclub .slickContent img {
+    height: auto;
+    margin-top: -40%;
+}
+
+.webmobile #espritclub .offresSlick .slick-prev {
+    left: -13px;
+}
+
+.webmobile #espritclub .offresSlick .slick-next {
+    right: 18px;
+}
+
+.webmobile #hebergementsslide .offresSlick .slick-prev {
+    left: -26px;
+}
+
+.webmobile #espritclub .offresSlick .slick-next,
+.webmobile #hebergementsslide .offresSlick .slick-next {
+    width: 13px;
+}
+
+.webmobile #espritclub .promotions-button {
+    padding: 11px 11px;
+    width: 95%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.webmobile#page101 div[itemprop="articleBody"] {
+    padding: 0 20px;
+}
+
+.webmobile#page101 div.page-header h2 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.webmobile#page101 div.page-header h2::first-word {
+    font-weight: bold;
+}
+
+.webmobile #ressurence .col-md-4 {
+    padding: 15px 0px 0!important;
+}
+
+.webmobile #dernieresminutescontent .titleaccuilderniere img {
+    margin-right: 15px;
+}
+
+.webmobile #dernieresminutescontent .titleaccuilderniere strong {
+    font-weight: 900;
+}
+
+.webmobile #megamenucss #js-mainnav.megamenu ul li a {
+    padding-bottom: 5px!important;
+}
+
+.webmobile #megamenucss #js-mainnav.megamenu ul.megamenu li a {
+    padding-bottom: 12px!important;
+}
+
+.webmobile #avisfooter .percentagedestacado {
+    margin-top: 15px;
+    font-size: 60px;
+}
+
+.webmobile #avisfooter .avisdestacado {
+    margin-top: 15px;
+}
+
+.webmobile h3.titleespritclubs {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 28px;
+}
+
+.webmobile #avisfooter .avisdestacado span {
+    margin-bottom: 10px;
+}
+
+.webmobile #avisfooter .contactavis {
+    font-size: 22px;
+}
+
+.webmobile #avisfooter .aviscontact p:first-child {
+    margin-bottom: 5px!important;
+}
+
+.webmobile #avisfooter a {
+    padding-right: 0px;
+}
+
+.webmobile #avisfooter .aviscontact p:nth-child(2) a:nth-child(2) {
+    margin-left: 0px;
+}
+
+.webmobile #linksfooter .langChoose {
+    display: inline-flex;
+    padding: 20px 15px 13px;
+    margin: 0;
+}
+
+.webmobile #linksfooter .langChoose:before {
+    font-family: "FontAwesome"!important;
+    content: "\f107";
+    width: 10px;
+    height: 10px;
+    right: 9px;
+    position: absolute;
+    color: #1b438e;
+    font-size: 15px;
+}
+
+.webmobile #linksfooter .mod-languages ul {
+    margin-top: 0px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.webmobile #linksfooter .mod-languages {
+    margin-top: 5px;
+}
+
+.webmobile .textfooter .custom {
+    margin-bottom: 30px;
+}
+
+.webmobile #avisfooter .aviscontact {
+    padding: 5px;
+}
+
+.webmobile #avisfooter .aviscontact p:nth-child(2) {
+    padding: 0px 10%;
+}
+
+.webmobile .iconfacebook,
+.webmobile .icontwitter,
+.webmobile .iconadvisor,
+.webmobile .iconbloc {
+    margin: 0 5px;
+}
+
+.webmobile #linksfooter .langChoose span.caret {
+    margin-top: 0px;
+}
+
+.webmobile .offrenewsletter span:first-child {
+    padding-top: 5px;
+    display: block;
+}
+
+.webmobile .recherchercms .closfiltersmobile {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 7px 40px!important;
+    border-radius: 5px;
+}
+
+.webmobile.cms .pagescmscontent h1,
+.webmobile.landingpage .pagescmscontent h1 {
+    font-size: 33px;
+    color: #8dc0ff;
+    margin-bottom: 35px;
+}
+
+.webmobile button.closfiltersmobile {
+    border: 1px solid #e3e7ec!important;
+}
+
+.webmobile button.closfiltersmobile,
+.webmobile button.closrecherchersmobile {
+    font-weight: 900;
+    font-size: 15px;
+    width: 45%;
+    margin: 0 2%;
+    padding: 10px 0!important;
+    border: none;
+    border-radius: 5px;
+}
+
+.webmobile button.affiner {
+    padding: 4px 0!important;
+}
+
+.webmobile button.closrecherchersmobile i:before {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.webmobile button.closrecherchersmobile .fa-search {
+    font-size: 15px;
+}
+
+.webmobile .navformule {
+    border: 1px solid #419bf9!important;
+}
+
+.webmobile ul.navformule {
+    border: none!important;
+    border-bottom: 1px solid #419bf9!important;
+}
+
+.webmobile.tipopromotion.cms ul.navformule {
+    border-bottom: 0px solid #419bf9!important;
+}
+
+.webmobile .appartement-caract {
+    border-bottom: none;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.webmobile.tipopromotion.cms .appartement-caract {
+    padding: 0px!important;
+    margin-top: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.webmobile .appartement-caract .reservezbutton {
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 20px 15px 15px;
+    background-color: #0f8fd1;
+}
+
+.webmobile.tipopromotion.cms .appartement-caract .reservezbutton {
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 20px 15px 15px;
+    background-color: #0f8fd1;
+}
+
+.webmobile.tipopromotion.cms .appartement-caract .blocsup {
+    margin-left: 0;
+}
+
+.webmobile.tipopromotion.cms .navformulecont {
+    border: 0;
+}
+
+.webmobile.tipopromotion.cms .navformulecont>div {
+    overflow-x: auto;
+}
+
+.webmobile.tipopromotion.cms .navformulecont>div>ul {
+    min-width: 650px;
+}
+
+.webmobile.tipopromotion.cms .reserveztext .prixdisc span {
+    font-size: 24px;
+    letter-spacing: 0;
+    padding: 0 0 0 15px;
+}
+
+.webmobile.tipopromotion.cms .reservezprix .continfotaxes {
+    display: none;
+}
+
+.webmobile.tipopromotion.cms .reserveztext .prixdisc {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.webmobile.tipopromotion span.prixper {
+    font-size: 13px!important;
+}
+
+.webmobile.tipopromotion.cms .appartement-caract .reservezprix .prix {
+    text-align: initial;
+    float: left;
+}
+
+.webmobile.tipopromotion.cms .appartement-caract .reservezbutton .reserveztext,
+.webmobile.tipopromotion.cms .appartement-caract .reservezbutton .reservezdates {
+    color: #fff!important;
+}
+
+.webmobile .reservezbutton img,
+.webmobile.etablessiments #resultsrechercher .reserveztext img {
+    filter: invert(94%) sepia(100%) saturate(0%) hue-rotate(302deg) brightness(105%) contrast(102%);
+}
+
+.webmobile .reserveztext .prixdisc {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.webmobile.etablessiments .reserveztext .prixdisc {
+    text-align: initial;
+}
+
+.webmobile.etablessiments .continfotaxes {
+    display: none;
+}
+
+.webmobile .appartement-type .tipoappartement {
+    top: 10px;
+    left: 0px;
+}
+
+.webmobile .reservezprix {
+    margin-left: 15px;
+}
+
+.webmobile.tipopromotion.cms .reservezprix {
+    margin-left: 0;
+}
+
+.webmobile .appartement-caract button.btn {
+    margin-left: -8px;
+}
+
+.webmobile .recherchercms .appartement-type {
+    padding: 20px;
+}
+
+.webmobile .reservezarea {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.webmobile.tipopromotion.cms .reservezarea {
+    border-left: 0!important;
+}
+
+.webmobile.etablessiment .footer-menu>div {
+    padding: 0;
+}
+
+.webmobile.etablessiment .footer-menu {
+    margin-bottom: 30px;
+}
+
+.webmobile #ressurence .row p {
+    padding: 0 20px;
+}
+
+.webmobile.etablessiment #ressurence .row p {
+    padding: 0px;
+}
+
+.webmobile #dernieresminutescontent .offresSlick {
+    margin-top: 60px;
+}
+
+.webmobile #dernieresminutescontent .offresSlick button,
+.webmobile #dernieresminutesfichacontent .offresSlick button {
+    display: none!important;
+}
+
+.webmobile .reservesmenumobile {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 101%;
+    padding: 7px 0px;
+    margin: 0px -16px;
+    background: url('https://media.resalys.com/mmv_new/images/home/backhiver.png');
+}
+
+.webmobile.etablessiment .reservesmenumobile {
+    margin: 0px -21px;
+}
+
+.webmobile.etablessiment .contentficha article.col-12.order-6 {
+    padding: 0px;
+}
+
+.webmobile.etablessiment .contentficha .tab-content .containerDefaultText {
+    font-size: 15px;
+}
+
+.webmobile.etablessiment .contentficha .tab-content .containerDefaultText p {
+    line-height: 23px;
+}
+
+.webmobile .reservesmenumobile>ul>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+.webmobile .reservesmenumobile>ul>li>a:hover {
+    border-color: transparent!important;
+}
+
+.webmobile .reservesmenumobile .closnavmenu {
+    top: 16px;
+    color: white;
+    right: 10px;
+}
+
+.webmobile .reservesmenumobile .select-menu .select-options-menu {
+    margin-top: -5px;
+}
+
+.webmobile .menuprinccont .navbar .container {
+    background-color: transparent;
+}
+
+.webmobile .rechercherHome .container .row .col-12 .row .col-12 {
+    margin-bottom: 10px;
+    height: 45px;
+    text-align: left;
+}
+
+.webmobile.etablessiment .rechercherHome .container .row .col-12 .row .col-12 {
+    padding: 0 10px!important;
+}
+
+.webmobile .autocomplete-image,
+.autocomplete-image-menu {
+    top: 4px;
+}
+
+.autocomplete-image-menu {
+    left: 26px;
+}
+
+.webmobile .rechercherHome .rechercherBtn.rechercherBtn-results {
+    width: 100%;
+}
+
+.webmobile .Rectangle-menu {
+    bottom: -265px;
+    /* bottom:-260px; */
+    padding: 1px;
+    min-width: 337px;
+}
+
+.webmobile.etablessiments #resultsrechercher {
+    margin-top: -540px;
+}
+
+.webmobile.etablessiments #resultsrechercher .descriptionheberg {
+    margin-top: 25px;
+}
+
+.webmobile.etablessiments .containerHebergement>.row:first-child {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.webmobile ul#ui-id-2,
+.webmobile ul#ui-id-1,
+#page101.webmobile ul#ui-id-2,
+#page101.webmobile ul#ui-id-1 {
+    width: 90%!important;
+    max-width: 90%;
+    z-index: 9999;
+    position: fixed;
+    /* min-height: 185px;
+    max-height: 185px; */
+    min-height: 150px;
+    max-height: 150px;
+    padding-right: 0;
+}
+
+.webmobile.etablessiment .daterangepicker.show-calendar.opensright {
+    z-index: 9999!important;
+}
+
+.webmobile .rechercherHome .select-styled-menu {
+    padding: 10px 17px;
+}
+
+.webmobile .maxPersPermitted-menu {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.webmobile #ui-id-2 {
+    width: 25px!important;
+}
+
+.webmobile #ui-id-1 img {
+    width: 45px!important;
+    margin-left: 0!important;
+}
+
+.webmobile .rechercherHome .blueBox,
+.webmobile .rechercherHome input[type="text"] {
+    background-color: rgba(236, 236, 236, 0.13)!important;
+}
+
+.webmobile .rechercherHome .block-personas-menu span {
+    font-size: 13.5px;
+}
+
+.webmobile .daterangepicker.show-calendar.opensright {
+    width: 90%;
+    top: 150px!important;
+    position: fixed
+}
+
+.webmobile .rechercherHome .col-6:after,
+.webmobile .rechercherHome .row .col-12 .row .col-12:after,
+.webmobile .langChoose:after,
+.webmobile #header .autress:after,
+.webmobile #rechercherslide .autress:after {
+    top: 10px;
+}
+
+.webmobile .personasWindDiv-menu .annuler-row {
+    margin-top: -36px;
+}
+
+.webmobile .daterangepicker.show-calendar .ranges {
+    margin-top: 0px;
+}
+
+.webmobile .daterangepicker .calendar-table {
+    min-width: 292px!important;
+}
+
+.webmobile .daterangepicker .drp-calendar {
+    max-width: initial;
+    padding: 0px 10px!important;
+}
+
+.webmobile .reservesmenumobile .rechercherHome .personasWindDiv-menu {
+    min-width: 324px;
+    top: -220px;
+    padding: 10px 10px 0px;
+}
+
+.webmobile .personasWindDiv-menu .row .col-6:first-child {
+    padding-top: 10px;
+}
+
+.webmobile .rechercherHome .col-6:after {
+    display: none;
+}
+
+.webmobile .reservesmenumobile>.nav-tabs {
+    border-bottom: none;
+}
+
+.webmobile .reservesmenumobile .nav-tabs .nav-item {
+    display: none;
+}
+
+.webmobile .reservesmenumobile .nav-tabs .nav-item:first-child {
+    display: initial;
+}
+
+.webmobile .reservesmenumobile .nav-tabs .nav-link.active {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    /*     margin: 5px; */
+}
+
+.webmobile .reservesmenumobile .tab-content {
+    padding: 5px 20px;
+}
+
+.webmobile.etablessiment .reservesmenumobile .tab-content {
+    padding: 5px 0px;
+}
+
+.webmobile .daterangepicker .calendar-table th,
+.webmobile .daterangepicker .calendar-table td {
+    line-height: 21px;
+}
+
+.webmobile .reservesmenumobile .rechercherHome {
+    padding: 0px;
+}
+
+.webmobile.etablessiment .reservesmenumobile .rechercherHome {
+    margin-left: -7px;
+}
+
+.webmobile .daterangepicker .calendar-table .table-condensed thead tr {
+    height: 25px;
+}
+
+.webmobile .daterangepicker .calendar-table {
+    padding: 5px 10px!important;
+}
+
+.webmobile .daterangepicker td.in-range {
+    background-color: #17418e33;
+}
+
+.webmobile .reservesmenumobile .nav-tabs .nav-item {
+    width: 100%;
+}
+
+.webmobile #clubs .slickContent {
+    max-height: 432px;
+}
+
+.webmobile .slickclubs .categorieicon {
+    top: initial;
+    bottom: 175px;
+}
+
+.webmobile #clubs .slickContent h4 {
+    font-size: 19px;
+    margin: 55px 0 0;
+}
+
+.webmobile #clubs .logoheberg {
+    max-width: 60px;
+}
+
+
+/* .webmobile #clubs .clubprice {
+    margin-top: 10px;
+ } */
+
+
+/***** LANDINGPAGES *******/
+
+.webmobile.landingpage #logotop .custom img {
+    max-width: 130px!important;
+}
+
+.webmobile.landingpage .customtop-compte a {
+    margin-left: 0px;
+}
+
+.webmobile.landingpages .moduletable {
+    margin-top: 58px;
+}
+
+.webmobile.landingpages h1 {
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+.webmobile.landingpages #header .menusup-exp {
+    width: 100%;
+    margin: 0!important;
+}
+
+.webmobile.landingpages #header .menusup-exp .slick-prev {
+    left: 5px;
+}
+
+.webmobile.landingpages #header .menusup-exp .slick-next {
+    right: 10px;
+}
+
+.webmobile.landingpages #header .menusup-exp .slick-next:before {
+    content: "\f054"!important;
+    font-size: 20px!important;
+}
+
+.webmobile.landingpages #header .menusup-exp .slick-prev:before {
+    content: "\f053"!important;
+    font-size: 20px!important;
+}
+
+.webmobile.landingpages #header .menusup-exp .slick-slide {
+    float: none;
+    height: 100%;
+    display: table-cell!important;
+    vertical-align: middle;
+}
+
+.webmobile.landingpages .contentheaderexpmmv h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.webmobile.landingpages .contentheaderexpmmv .titleheaderexpmmv p {
+    font-size: 16px;
+    color: white;
+    width: 90%;
+}
+
+.webmobile.landingpages .blocscontentheaderexpmmv .only-mobile {
+    display: initial;
+}
+
+.webmobile.landingpages .blocscontentheaderexpmmv .only-desktop {
+    display: none;
+}
+
+.webmobile.landingpages .blocscontentheader {
+    margin: 130px 20px 20px!important;
+    padding-bottom: 20px!important;
+}
+
+.webmobile.landingpages .blocscontentheaderexpmmv img {
+    margin-bottom: 14px;
+}
+
+.webmobile.landingpages .headeropinions {
+    position: absolute;
+    bottom: -255px;
+    padding: 0;
+}
+
+.webmobile.landingpages .contentheaderexpmmv .headeropinions>div {
+    padding: 13px 15px;
+}
+
+.webmobile.landingpages .contentheaderexpmmv .headeropinions div img {
+    margin-right: 10px;
+}
+
+.webmobile.landingpages .contentheaderexpmmv .headeropinions div p {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 23px;
+    margin-bottom: 0px;
+}
+
+.webmobile.landingpages .headeropinions div {
+    border-radius: 0;
+}
+
+.webmobile.landingpages .contentheaderexpmmv .headeropinions>div:last-child {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.webmobile.landingpages .backheaderexpmmv>.d-flex>img {
+    height: 325px;
+    max-width: 1280px!important;
+}
+
+.webmobile.landingpages .backheaderexpmmv {
+    overflow: initial;
+}
+
+.webmobile.landingpages .backheaderexpmmv>.d-flex {
+    height: 318px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.webmobile.landingpages .blocscontentheaderexpmmv>p {
+    padding: 20px 30px 10px;
+    text-align: center;
+}
+
+.webmobile.landingpages .contentheaderslide {
+    padding: 0 0 90px 0;
+}
+
+.webmobile.landingpages .rowexperience {
+    margin: 0 0 60px 0!important;
+}
+
+.webmobile.landingpages .rowexperience .contentexperience {
+    margin: 0px 20px -30px;
+    z-index: 2;
+}
+
+.webmobile.landingpages .rowexperience:first-child .contentexperience {
+    margin: -20px 20px -30px;
+    z-index: 2;
+}
+
+.webmobile.landingpages .rowexperience .contentexperience {
+    padding: 20px;
+}
+
+.webmobile.landingpages .rowexperience h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.webmobile.landingpages .rowexperience .contentexperience .titleespritclubs p {
+    padding: 0 10px;
+}
+
+.webmobile.landingpages .rowexperience .caption {
+    right: 10%;
+    width: 81%;
+    top: 20%;
+}
+
+.webmobile.landingpages .rowexperience .caption p {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.webmobile.landingpages .contentgalerie .lSPager.lSGallery {
+    width: auto!important;
+}
+
+.webmobile.landingpages .contentgalerie .lSPager.lSGallery li {
+    margin-right: 0!important;
+}
+
+#vosgarantiesexperience .nav-item {
+    max-width: 33%;
+}
+
+#vosgarantiesexperience .nav-link img {
+    max-width: 100%;
+    padding: 0;
+}
+
+#vosgarantiesexperience .nav-tabs .nav-item a {
+    height: auto;
+}
+
+#vosgarantiesexperience .slider .float-left {
+    float: initial!important;
+}
+
+.landingpages #clubs {
+    background-color: #f6f3f3!important;
+    padding-top: 20px;
+}
+
+.landingpages #clubs .blanctext.m-0,
+.landingpages #clubs h2 {
+    color: #1b438e!important;
+}
+
+.landingpages #clubs>.container,
+.landingpages #clubs>.container .slickclubs {
+    padding: 15px!important;
+}
+
+.landingpages #ressurence {
+    margin: 0 auto;
+}
+
+#vosgarantiesexperience .row {
+    border: solid 0px #ebebeb;
+}
+
+
+/***** ETABLESSIMENTS *******/
+
+.webmobile.webmobile.etablessiment .contentficha.margintopfixed {
+    margin-top: 120px;
+}
+
+.webmobile.etablessiment #pills-tabContent .tab-pane div.moduletable {
+    display: none;
+}
+
+.webmobile.etablessiment .navbar-header a:first-child img {
+    max-width: 110px!important;
+    padding: 0 10px 0!important;
+}
+
+.webmobile.etablessiment #avisfooter .avistelf,
+.webmobile.landingpages #avisfooter .avistelf {
+    padding: 0 5px;
+}
+
+.webmobile.etablessiment .avistelf,
+.webmobile.landingpages .avistelf {
+    padding: 0;
+}
+
+.webmobile.etablessiment .avistelf img,
+.webmobile.landingpages .avistelf img,
+.webmobile.etablessiments .avistelf img {
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.webmobile.etablessiment #headerficha {
+    padding: 0;
+    min-height: 470px!important;
+}
+
+.webmobile.etablessiment #headerficha aside.container .row div:first-child {
+    padding: 0;
+}
+
+.webmobile.etablessiment #headerficha .titleville {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.webmobile.etablessiment #headerficha .triggerstation {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+    background-color: #1b438e;
+}
+
+.webmobile.etablessiment #headerficha .triggerstation img {
+    width: 20px;
+    height: 25px;
+}
+
+.webmobile.etablessiment #headerficha .logofichaetab {
+    position: absolute;
+    top: -50px;
+    z-index: 2;
+}
+
+.webmobile.etablessiment #headerficha .logofichaetab .rclub-logo img {
+    width: 60px;
+}
+
+.webmobile.etablessiment .rclub-logo p {
+    margin-top: 8px;
+}
+
+.webmobile.etablessiment #headerficha .dispostarfs {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background-color: #83b9e257;
+    color: #1b438e;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 0 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.webmobile.etablessiment #headerficha .avis-header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.webmobile.etablessiment .logofichaetab p {
+    margin-top: 2px;
+    padding: 0px 7px;
+    margin-bottom: 0px;
+}
+
+.webmobile.etablessiment #headerficha h2 {
+    margin-top: 50px;
+    color: #0d2146;
+}
+
+.webmobile.etablessiment .avis-header a {
+    display: none;
+}
+
+.webmobile.etablessiment #headerficha aside.container .dispostarifsheader:before {
+    display: none;
+}
+
+.webmobile.etablessiment #headerficha aside.container .dispostarifsheader {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.webmobile.etablessiment #headerficha .dispostarifsheader div {
+    width: 49%;
+    float: left;
+    margin-right: 2px;
+}
+
+.webmobile.etablessiment #headerficha .divinfotaxes {
+    width: 100%!important;
+    z-index: 1;
+}
+
+.webmobile.etablessiment #headerficha aside.container .dispostarifsheader .scolaires p {
+    margin-top: 0px;
+}
+
+.webmobile.etablessiment #headerficha aside.container .dispostarifsheader .scolaires p {
+    margin-top: -5px;
+    color: black;
+}
+
+.webmobile.etablessiment #headerficha aside.container .dispostarifsheader .noscolaires p {
+    margin-top: -5px;
+    color: grey;
+}
+
+.webmobile.etablessiment #headerficha .subtitle-etablessiment span {
+    font-size: 16px;
+    color: #0d2146;
+}
+
+.webmobile.etablessiment #contentfichaslide {
+    margin-top: 55px;
+}
+
+.webmobile.etablessiment #contentfichaslide .imgficha {
+    max-height: 240px;
+    min-height: 240px;
+    min-width: auto;
+}
+
+.webmobile.etablessiment .slick-next {
+    right: -30px;
+}
+
+.webmobile.etablessiment .slick-prev {
+    left: -30px;
+    z-index: 2;
+}
+
+.webmobile.etablessiment .slick-prev,
+.webmobile.etablessiment .slick-next {
+    display: none!important;
+}
+
+.webmobile.etablessiment .linksficha {
+    height: 57px;
+}
+
+.webmobile.etablessiment .linksficha ul {
+    margin: 0;
+    padding: 0;
+}
+
+.webmobile.etablessiment .linksficha ul li {
+    padding: 0px 2px;
+}
+
+.webmobile.etablessiment .linksficha ul li a {
+    font-size: 13px;
+    padding: 6px;
+    margin: 4px 0;
+    min-width: 100px;
+}
+
+.webmobile.etablessiment .linksficha.fixed ul li a {
+    margin: 2px 8px;
+}
+
+.webmobile.etablessiment .nav-pills .slick-slide {
+    float: none;
+    height: 100%;
+    display: table-cell!important;
+    vertical-align: middle;
+}
+
+.webmobile.etablessiment .linksficha .nav-pills .slick-slide {
+    min-width: 130px;
+    padding: 1px 0 0 0;
+}
+
+.webmobile.etablessiment .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.webmobile.etablessiment .linksficha.fixed ul {
+    width: 100%;
+}
+
+.webmobile.etablessiment .linksficha .nav-pills .nav-link:hover {
+    background-color: transparent;
+}
+
+.webmobile.etablessiment .navformule li a {
+    padding: 10px 4px!important;
+}
+
+.webmobile.etablessiment .lightSliderContent img {
+    height: 276px;
+}
+
+.webmobile.etablessiment #socialmedia .row>.col-lg-7 {
+    padding: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.webmobile.etablessiment #socialmedia .row img {
+    width: 58px;
+}
+
+.webmobile.etablessiment #socialmedia .row .col-lg-5 {
+    text-align: center;
+}
+
+.webmobile.lg-on .lg-outer.lg-start-zoom {
+    height: 87%;
+    top: initial;
+    bottom: -3px;
+}
+
+#servicesinclus .modal-footer,
+#servicesNotinclus .modal-footer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Votre Club */
+
+.webmobile.etablessiment .contentficha .tab-content {
+    margin: 0;
+}
+
+.webmobile.etablessiment .contentficha #pills-tabContent .datos-tarifas {
+    min-height: 220px;
+}
+
+.webmobile.etablessiment .contentficha .tab-content h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.webmobile.etablessiment .colEteHiver {
+    margin: 30px auto;
+}
+
+.webmobile.etablessiment .saisondates p {
+    font-size: 15px;
+}
+
+.webmobile.etablessiment .votreclubgammacont {
+    margin: 20px 7% 20px 0%!important;
+    position: relative;
+}
+
+.webmobile.etablessiment .votreclubgammacont .rclub-logo {
+    position: absolute;
+    border-radius: 5px;
+    height: 80px;
+    padding: 5px;
+    width: 60px;
+    margin: 15px;
+}
+
+.webmobile.etablessiment .votreclubgammacont img {
+    padding: 5px;
+}
+
+.webmobile.etablessiment .votreclubgammacont .rclub-logo span {
+    font-weight: 600;
+}
+
+.webmobile.etablessiment .votreclubgammacont span.bluetext {
+    color: #0f8fd1!important;
+}
+
+.webmobile.etablessiment .votreclubgammacont span.greentext {
+    color: #33979d!important;
+}
+
+.webmobile.etablessiment #pourquoi .container
+/* , .webmobile.etablessiment #pourquoi .container .row > div */
+
+{
+    padding: 0;
+}
+
+.webmobile.etablessiment #pourquoi {
+    margin-right: -15px;
+}
+
+.webmobile.etablessiment #pourquoi .categorieicon {
+    top: 130px;
+}
+
+.webmobile.etablessiment #pourquoi .offresSlick .slickContent {
+    /* padding-right:0px!important; */
+}
+
+.webmobile.etablessiment #pourquoi .slick-next:before,
+.webmobile.etablessiment #pourquoi .slick-prev:before {
+    font-size: 30px!important;
+}
+
+.webmobile.etablessiment #pourquoi .slick-next {
+    right: -7px!important;
+}
+
+.webmobile.etablessiment #pourquoi .slick-prev {
+    left: -12px!important;
+}
+
+.webmobile.etablessiment .contentficha .votreclubgammalibere {
+    padding: 15px 15px 15px 90px;
+}
+
+.webmobile.etablessiment #votreclubresidence .votreclubenfants {
+    margin: 50px 0 0!important;
+}
+
+.webmobile.etablessiment .votreclubenfants-info {
+    padding: 0;
+}
+
+.webmobile.etablessiment .votreclubenfants a {
+    margin: 0;
+}
+
+.webmobile.etablessiment .appartementsvotreclub>div {
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.webmobile.etablessiment .appartementsvotreclub button {
+    width: 50%;
+    background-color: #e3f6ff!important;
+    padding: 10px!important;
+}
+
+.webmobile.etablessiment .appartementsvotreclub .row.mr-1>div:nth-child(2) {
+    padding: 0px!important;
+}
+
+.webmobile.etablessiment .modal-dialog .btn-default {
+    background-color: #0f8fd1!important;
+}
+
+.webmobile.etablessiment .appartementsvotreclub a {
+    margin-top: 15px;
+}
+
+.appartementsvotreclub {
+    display: flex!important;
+}
+
+.webmobile.etablessiment .appartement-caract>div {
+    padding: 0;
+}
+
+.webmobile.etablessiment .appartement-caract>div:nth-child(2) {
+    margin: 0px;
+}
+
+.webmobile.etablessiment #linksfooter .row div .row div {
+    padding: 0;
+}
+
+.webmobile.etablessiment #pourquoi .dernieretext h4 {
+    margin-top: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.webmobile.etablessiment #pourquoi .slick-slide h3 {
+    position: absolute;
+    top: 15px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.webmobile.etablessiment #pourquoi .contentimg img {
+    width: 100%;
+    height: 190px;
+}
+
+.webmobile.etablessiment #pourquoi .row h2 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.webmobile.etablessiment .btnservice p {
+    font-size: 12px;
+    letter-spacing: -0.8px;
+}
+
+.webmobile.etablessiment .modal-dialog {
+    margin-top: 70px;
+}
+
+
+/*LA STATION */
+
+.webmobile.etablessiment .contentficha .row .col-lg-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.webmobile.etablessiment .navbar>.container {
+    padding: 5px 0;
+}
+
+.webmobile.etablessiment .titlebienetre {
+    margin-bottom: 20px!important;
+}
+
+.webmobile.etablessiment .bienetredescimg {
+    position: inherit;
+    margin: 0px!important;
+    padding: 15px 30px;
+    border: none;
+    top: 0;
+    max-width: 385px;
+}
+
+.webmobile.etablessiment .stationouverture {
+    margin: 30px 0 20px;
+}
+
+.webmobile.etablessiment .estationgalecont {
+    margin: 20px 7% 20px 3%!important;
+    position: relative;
+    z-index: 2;
+    padding: 0 15px;
+    background-color: white;
+}
+
+.webmobile #galerieStation,
+.webmobile #galerieOngletPrincipal,
+.webmobile #galerieclubenfants,
+.webmobile #galeriebienetre,
+.webmobile #galerieAnimations {
+    margin: -50px -15px 30px;
+}
+
+.webmobile.etablessiment #infoneige p {
+    color: #0d2146;
+}
+
+.webmobile.etablessiment .stationdonnees .fa {
+    font-size: 45px;
+    margin-top: 4px;
+}
+
+.webmobile.etablessiment .stationdonnees div {
+    padding: 0;
+}
+
+.webmobile.etablessiment .altitude {
+    position: relative;
+    margin-top: 65px;
+    margin-right: 55px;
+}
+
+.webmobile .stationdonnees .altitude img {
+    width: 170px;
+    right: 55px;
+}
+
+.webmobile .stationdonnees .altitude .mountain-image::before {
+    width: 90px;
+    right: 55px;
+}
+
+.webmobile .stationdonnees .altitude .mountain-image::after {
+    width: 90px;
+    top: 117px;
+    right: 55px;
+}
+
+.webmobile .stationdonnees .alt-2 {
+    top: 100px !important;
+    right: 0px;
+}
+
+.webmobile.etablessiment .altitude .mountain-image:before {
+    top: 4px;
+}
+
+.webmobile.etablessiment .stationdonnees .alt-1 {
+    margin-top: -7px!important;
+    right: 0px;
+}
+
+.webmobile.etablessiment .stationouverture p {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.webmobile.etablessiment .stationdonnees h3 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.webmobile.etablessiment .stationouverture div {
+    padding: 0;
+}
+
+.webmobile.etablessiment .station-subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 150px!important;
+}
+
+.webmobile.etablessiment .informationsneige {
+    border: none;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 40px;
+}
+
+.webmobile.etablessiment .informationsneige h3 {
+    text-transform: lowercase!important;
+}
+
+.webmobile.etablessiment .informationsneige h3::first-letter {
+    text-transform: uppercase;
+}
+
+.webmobile.etablessiment #infosNeigeGeneral {
+    padding: 35px 0 0;
+}
+
+.webmobile.etablessiment #infoPistes {
+    background-color: #0d2146;
+}
+
+.webmobile.etablessiment #infoPistes h3,
+.webmobile.etablessiment #infoPistes p {
+    color: white;
+}
+
+.webmobile.etablessiment #infoPistes h3 span {
+    font-weight: initial!important;
+}
+
+.webmobile.etablessiment .informationsneige h3 {
+    font-weight: 600;
+    padding: 10px 0px 0px 10px;
+}
+
+.webmobile.etablessiment .pistesouvertesinfo {
+    padding: 10px;
+    margin: 0;
+}
+
+.webmobile.etablessiment #infoPistes>p {
+    padding: 10px;
+    color: white;
+    background-color: #081732;
+    margin: 0;
+}
+
+.webmobile.etablessiment #infoPistes>p i {
+    color: white!important;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.webmobile.etablessiment .horizontal .stationprogress-fill {
+    background-color: #fdc513;
+}
+
+.webmobile.etablessiment #skiabilite,
+.webmobile.etablessiment #altitudeNeige,
+.webmobile.etablessiment #infoneige {
+    padding-left: 0;
+}
+
+.webmobile.etablessiment #infoabajo {
+    padding: 0px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.webmobile.etablessiment .planetpratique .plandomaine {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.webmobile.etablessiment .planetpratique .telechargez {
+    margin-bottom: 0;
+}
+
+.webmobile.etablessiment #infokmOuvbajo {
+    padding: 0;
+}
+
+.webmobile.etablessiment #infoabajo .titleinfoabajo {
+    margin: 0;
+}
+
+.webmobile.etablessiment #infoabajo p {
+    color: #0d2146;
+}
+
+.webmobile.etablessiment #infokmOuvbajo div {
+    margin: 0px 0;
+    padding: 0;
+}
+
+.webmobile.etablessiment .infocommentvenir div {
+    border: none;
+    padding: 0;
+}
+
+.webmobile.etablessiment .infocommentvenir h3 {
+    text-transform: initial!important;
+}
+
+.webmobile.etablessiment .infovenez>div {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.webmobile.etablessiment .infovenez>div>.row>div {
+    padding-left: 0;
+}
+
+.webmobile.etablessiment .infovenez .fa {
+    height: 50px;
+    width: 50px;
+}
+
+.webmobile.etablessiment .infovenez .row {
+    margin-bottom: 10px;
+}
+
+.webmobile.etablessiment #fildariadne {
+    margin: 20px 0 0!important;
+}
+
+.webmobile.etablessiment #fildariadne li {
+    padding: 0 10px 7px 0!important;
+    font-size: 14px!important;
+}
+
+.webmobile.etablessiment .infovenez {
+    margin-top: 30px;
+}
+
+.plandomaine {
+    padding: 15px 0;
+}
+
+
+/* CLUB ENFANTS */
+
+.webmobile.etablessiment #galerieclubenfants {
+    margin-top: 20px;
+}
+
+.webmobile.etablessiment #clubenfantsficha .row>div {
+    padding: 0;
+}
+
+.webmobile.etablessiment .fichaimg {
+    padding: 0!important;
+    margin-bottom: 15px;
+}
+
+.webmobile.etablessiment #clubenfantsficha {
+    margin: 5px!important;
+}
+
+
+/* ANIMATIONS LOISIRS */
+
+.webmobile.etablessiment #bienetreetloisirsFicha h2 {
+    font-size: 22px;
+    margin: 30px 0 0px;
+    text-align: center;
+}
+
+.webmobile.etablessiment .fichaimg img {
+    width: 85%;
+    float: none;
+}
+
+
+/* SE RESTAURER */
+
+.webmobile.etablessiment .sarestaurer-row {
+    margin: 15px 0!important;
+}
+
+.webmobile.etablessiment #sarestaurer h3 {
+    color: black;
+    font-size: 18px;
+}
+
+.webmobile.etablessiment #sarestaurer {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.webmobile.etablessiment .retaurationcarte {
+    border: none;
+}
+
+.webmobile.etablessiment .retaurationcarte div {
+    text-align: center;
+}
+
+.webmobile.etablessiment .retaurationcarte div:nth-child(odd) {
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 37% 0;
+    color: #1b438e;
+    margin-top: -1px;
+}
+
+.webmobile.etablessiment .retaurationcarte>div:nth-child(even) {
+    border: 1px solid #ebebeb;
+    padding: 10px 20px!important;
+}
+
+.webmobile.etablessiment .retaurationcarte .imgsarestaurer {
+    width: 100%;
+}
+
+.webmobile.etablessiment .sarestaurer-row .fichatext h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.webmobile.etablessiment #socialmedia {
+    margin: 50px 0px;
+}
+
+.webmobile.etablessiment .nameNote {
+    display: flex;
+}
+
+.webmobile.etablessiment .nameNote .name-date {
+    order: 2;
+}
+
+.webmobile.etablessiment .nameNote .box-container {
+    order: 1
+}
+
+
+/* TARIFS */
+
+.webmobile.etablessiment #pills-tabContent .rechercherEtablissement {
+    padding: 0;
+    margin: 0!important;
+}
+
+.webmobile.etablessiment #pills-tabContent .rechercherEtablissement .row>.col-12 {
+    padding: 0;
+}
+
+.webmobile.etablessiment #pills-tabContent .rechercherEtablissement .selPersonascol,
+.webmobile.etablessiment #pills-tabContent .rechercherEtablissement .datefiltercol,
+.webmobile.etablessiment #pills-tabContent .rechercherEtablissement .rechercherBtncol {
+    padding: 0px!important;
+}
+
+.webmobile.etablessiment .tab-titles .nav-item a {
+    padding: 10px 5px 5px!important;
+    min-width: 86px;
+}
+
+.webmobile #pills-tabContent ul.tarifasNav .nav-item .nav-link {
+    padding: 0px 5px 0px!important;
+}
+
+.webmobile.etablessiment .rechercherEtablissement .selPersonas {
+    padding: 13px;
+}
+
+.webmobile.etablessiment #pills-tabContent .rechercherEtablissement .selPersonascol .avec-qui-partez-vous {
+    font-size: 16px!important;
+}
+
+.webmobile.etablessiment .rechercherEtablissement .selPersonas,
+.webmobile.etablessiment .rechercherEtablissement .rangeDatepicker {
+    margin-bottom: 10px;
+}
+
+.webmobile.etablessiment .columns-roomtype .column .row div {
+    width: 35%;
+    margin-left: 3px;
+}
+
+.webmobile.etablessiment .columns-roomtype .tipo-num,
+.webmobile.etablessiment .columns-roomtype .tipo-text {
+    text-align: left;
+    line-height: 16px;
+}
+
+.webmobile.etablessiment .tab-tarifs .tipo-num {
+    margin-top: 0px;
+    min-width: 37px!important;
+    margin-left: 0px;
+}
+
+.webmobile.etablessiment .tab-tarifs {
+    border: none;
+}
+
+.webmobile.etablessiment .columns.is-mobile.columns-roomtype {
+    height: 185px;
+    max-height: 185px;
+    min-height: 165px;
+    padding: 20px 0px 10px;
+    border: none;
+    margin: 0!important;
+    width: 100%;
+}
+
+.webmobile.etablessiment .columns-roomtype .column-roomtype .leschambres {
+    border: none;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.webmobile.etablessiment .tab-tarifs .datos-tarifas .btn {
+    margin: -17px;
+}
+
+.webmobile.etablessiment .tab-tarifs .datos-tarifas .modal-dialog .btn {
+    margin: -3px 0;
+    padding: 2px 10px;
+}
+
+.webmobile.etablessiment .columns-roomtype .column-roomtype .column:nth-child(5).plus-info .btn {
+    margin: 0px -2px 13px -5px;
+}
+
+.webmobile.etablessiment .columns-roomtype .column-roomtype .column:nth-child(2) .tipo-num,
+.webmobile.etablessiment .columns-roomtype .column-roomtype .column:nth-child(2) .tipo-text {
+    margin-left: -2px;
+}
+
+.webmobile.etablessiment .columns.is-mobile .column-roomtype {
+    width: 110%;
+    padding: 10px 0px 0px 12px;
+}
+
+.webmobile.etablessiment .tab-tarifs .datos-tarifas .columns-roomtype .column.leschambres p:nth-child(2) {
+    margin-top: -11px;
+}
+
+.webmobile.etablessiment .tab-tarifs .datos-tarifas .columns-roomtype .column {
+    padding: 5px;
+}
+
+.webmobile.etablessiment .tab-tarifs .datos-tarifas .columns-roomtype .column.leschambres p:nth-child(1) {
+    font-size: 13px;
+}
+
+.webmobile.etablessiment #pills-tabContent .columns-price {
+    height: 170px;
+    max-height: 170px;
+    border: 1px solid #c5c5c5;
+    margin-bottom: 15px!important;
+    border-radius: 5px;
+    margin-right: 0px!important;
+    min-height: 150px;
+    width: 99%;
+}
+
+.webmobile .blue-background-tarifs .slick-slide:nth-child(2) .columns {
+    background-color: transparent;
+}
+
+.webmobile .contentficha .continfotaxes {
+    display: none;
+}
+
+.webmobile.etablessiment #pills-tabContent .columns-price a {
+    width: 100%;
+}
+
+.webmobile.etablessiment .tarifasNav.nav-tabs.tab-titles {
+    margin-top: 25px;
+}
+
+.webmobile.etablessiment .columnPrice p {
+    margin-top: 115px;
+    background-color: #dbf2ff;
+    padding: 10px 5px 20px 15px;
+    border-radius: 5px;
+    border-bottom: 1px solid #00000045;
+    text-align: center!important;
+}
+
+.webmobile.etablessiment .columnPrice span.prixper {
+    margin-top: -29px!important;
+    left: 50%;
+    padding-left: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.webmobile.etablessiment .precios-tarifas {
+    position: absolute;
+    width: 100%;
+}
+
+.webmobile.etablessiment .precios-tarifas>div {
+    margin-top: 30px;
+}
+
+.webmobile.etablessiment .columns-roomtype span.tipoappartement {
+    padding: 2px 5px 0px;
+}
+
+.webmobile.etablessiment .column.columnDate {
+    width: 100%;
+    text-align: center;
+    margin-left: 1px;
+    font-size: 15px;
+    padding: 35px 15px 6px 15px;
+}
+
+.webmobile.etablessiment .iconeformule {
+    max-height: 30px;
+}
+
+.webmobile.etablessiment .iconeformule img {
+    margin-top: 8px;
+    max-width: 26px;
+    max-height: 28px;
+}
+
+.webmobile.etablessiment .columns-roomtype span.tipoappartement {
+    margin-left: 0px;
+    top: 5px;
+}
+
+.webmobile.etablessiment .plus-info {
+    position: absolute;
+    right: 15px;
+    top: -6px;
+    z-index: 3;
+}
+
+.webmobile.etablessiment .plus-info button {
+    width: 40px;
+}
+
+.webmobile.etablessiment .columnPrice,
+.webmobile .tarifasNav .nav-item {
+    padding: 0;
+    margin-top: 0px;
+}
+
+.webmobile .tarifasNav .nav-item {
+    max-width: 33.3%;
+}
+
+.webmobile.etablessiment .priceTach {
+    left: 20px;
+    bottom: 15px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.webmobile.etablessiment .columns-roomtype>.column>p:first-child {
+    margin-top: 19px;
+    line-height: 9px;
+}
+
+.webmobile.etablessiment .descountTarifs {
+    right: 21px;
+    bottom: 22px;
+    top: inherit;
+}
+
+.webmobile.etablessiment .precios-tarifas .slick-list.draggable {
+    width: 108%;
+}
+
+.webmobile.etablessiment .precios-tarifas .slick-prev,
+.webmobile.etablessiment .precios-tarifas .slick-next {
+    display: block!important;
+}
+
+.webmobile.etablessiment .precios-tarifas .slick-next {
+    right: -15px;
+}
+
+.webmobile.etablessiment .precios-tarifas .slick-prev {
+    left: 8px;
+}
+
+.webmobile.etablessiment .tab-tarifs .slick-arrow {
+    top: 43px;
+    height: 40px;
+}
+
+
+/* AVIS CLIENTS */
+
+.webmobile.etablessiment #avisclientsFicha>.container,
+.webmobile.etablessiment #avisclientsFicha>.container>.row>.col-12 {
+    padding: 0;
+}
+
+.webmobile.etablessiment .contentficha .tab-content #avisclientsFicha h2 {
+    font-weight: 900;
+}
+
+.webmobile.etablessiment #avisclientsFicha .au-Monte-Bianco-et {
+    font-size: 22px;
+    line-height: 28px;
+    display: block;
+    margin-top: 5px;
+}
+
+.webmobile.etablessiment .avis-percentage {
+    padding: 0;
+    margin: 40px auto 20px;
+}
+
+.webmobile.etablessiment .plusavis {
+    padding-top: 30px!important;
+}
+
+.webmobile.etablessiment .avis-opinions .row>div {
+    padding: 0;
+}
+
+.webmobile.etablessiment .avis-opinions .box-wrapper {
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.webmobile.etablessiment .avisblockquote {
+    padding: 10px 10px 10px 40px;
+}
+
+.webmobile.etablessiment .avisblockquote:before {
+    left: 0px;
+    top: 38px;
+}
+
+.webmobile.etablessiment .avisblockquote:after {
+    right: 10px;
+    bottom: -20px;
+}
+
+.webmobile.etablessiment .avis-opinions .commentBox {
+    margin-top: 25px;
+}
+
+
+/* RESIDENCES VILLAGES CLUB */
+
+.webmobile.landingpage .Rectangle,
+.Rectangle-menu {
+    width: 92%!important;
+}
+
+.webmobile #ui-id-1 li,
+#ui-id-2 li {
+    margin: 0px 10px;
+    min-height: 45px;
+}
+
+.webmobile .ui-autocomplete .localidad-etab {
+    margin-top: -20px;
+    margin-left: 52px;
+}
+
+.webmobile .result-establec {
+    font-size: 12px;
+}
+
+.webmobile .green-type-heberg {
+    font-size: 10px;
+}
+
+.webmobile .rechercherHome .blueBox,
+.webmobile .rechercherHome .rangeDatepicker {
+    height: 40px;
+    padding: 8px 15px;
+}
+
+.webmobile .autocomplete-image-menu {
+    top: 4px;
+}
+
+.webmobile.landingpage .select,
+.select-menu {
+    height: 53px;
+}
+
+.webmobile.landingpage #ui-id-1.ui-autocomplete {
+    width: 92%!important;
+}
+
+.webmobile.landingpage .result-establec {
+    font-size: 12px;
+}
+
+.webmobile.landingpage .bluedbackground.contentheaderslide {
+    padding: 0;
+}
+
+.webmobile.landingpage #header.contentheaderslide {
+    padding: 75px 0 300px 0;
+}
+
+.webmobile.landingpage #header>.container>.row {
+    display: none;
+}
+
+.webmobile.landingpage .rechercherHome .selPersonas,
+.webmobile.landingpage .rechercherHome .datefilter,
+.webmobile.landingpage .rechercherHome .select,
+.webmobile.landingpage .rechercherHome input.autocomplete {
+    margin-bottom: 10px;
+}
+
+.webmobile.landingpage .rechercherHome .rechercherBtn.rechercherBtn-results {
+    width: 100%;
+}
+
+.webmobile.landingpage .rechercherHome .select-styled {
+    padding: 14px 17px;
+}
+
+.webmobile.landingpage .recherchercms .row .col-3 {
+    min-width: 100%;
+}
+
+.webmobile.landingpage .recherchercms .contactezinfo {
+    margin-top: 100px;
+}
+
+.webmobile.landingpage .recherchercms button.closfiltersmobile {
+    position: absolute;
+    display: block;
+    margin: -178px auto;
+    width: 92%;
+    background-color: #0d2146!important;
+    padding: 12px 0!important;
+    font-weight: 400;
+}
+
+.webmobile.landingpage .recherchercms .titlefilter i {
+    margin-left: 5px;
+}
+
+.webmobile.landingpage .textfiltersmod.contactezinfo img {
+    width: 35px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.webmobile.landingpage .textfiltersmod.contactezinfo .consultezexpert,
+.webmobile.landingpage .textfiltersmod.contactezinfo .consultezexpert a {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.webmobile.landingpage .textfiltersmod.contactezinfo .consultezexpert a {
+    font-weight: 900;
+}
+
+.webmobile.landingpages .titleespritclubs {
+    margin-top: 0px;
+}
+
+
+/* CMS */
+
+.cms .contentimg img {
+    max-width: 100%;
+}
+
+.webmobile.cms .pagescmscontent .template1,
+.webmobile.cms .pagescmscontent .template2 {
+    padding: 0!important;
+}
+
+.webmobile .pagescmscontent .template1 .col {
+    line-height: 17px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-basis: auto;
+}
+
+.webmobile.cms .pagescmscontent .template1 .col img {
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px #0000004a;
+    height: auto!important;
+}
+
+.webmobile.tipopromotion.cms .pagescmscontent .template1 .col img {
+    height: 110px!important;
+}
+
+.webmobile.cms .pagescmscontent {
+    margin-bottom: 0px;
+    margin-top: -200px;
+}
+
+.webmobile.cms .pagescmscontent p {
+    font-size: 15px;
+}
+
+.webmobile.cms .pagescmscontent p.blueclairetext {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.webmobile.cms .pagescmscontent .caption p {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.webmobile.cms .rowexperience .caption {
+    width: 50%;
+}
+
+.webmobile.tipopromotion article.pagescmscontent .moduletable .row {
+    margin-top: 10px;
+    padding: 20px 10px;
+}
+
+.webmobile.tipopromotion article.pagescmscontent .moduletable .row:last-child {
+    margin-bottom: 10px;
+}
+
+.webmobile.tipopromotion .containerHebergement {
+    margin-top: 30px;
+}
+
+.webmobile.tipopromotion .containerHebergement .categorieicon {
+    left: 10px;
+    margin-top: -55px;
+}
+
+.webmobile.tipopromotion .titleaccuilderniere {
+    float: none;
+    margin-bottom: -25px;
+}
+
+.webmobile.tipopromotion #dernieresminutesfichacontent .offresSlick {
+    margin-bottom: 20px;
+    margin-right: -5px;
+}
+
+.webmobile.tipopromotion #dernieresminutesfichacontent .offresSlick .slickContent a {
+    float: left;
+}
+
+.webmobile.tipopromotion .recherchercms #resultsCmsAjax .containerHebergement>.row:first-child {
+    padding: 20px 0;
+}
+
+.webmobile.tipopromotion .containerHebergement {
+    border: 0px solid #f9f8f8;
+}
+
+.webmobile.tipopromotion .containerHebergement>div.row:first-child>div {
+    padding: 0;
+}
+
+.webmobile.tipopromotion .containerHebergement>div.row:last-child>div {
+    padding: 0;
+}
+
+.webmobile.tipopromotion .h2Resulthebergements {
+    margin-top: 40px;
+}
+
+.webmobile.tipopromotion #resultsCmsAjax .containerHebergement .descriptiontext {
+    padding: 0;
+}
+
+.webmobile.tipopromotion .recherchercms .prixminsansdispo {
+    text-align: center;
+}
+
+.webmobile.tipopromotion .recherchercms .prixminsansdispo>span:first-child {
+    display: block;
+}
+
+.webmobile.cms article.pagescmscontent>img {
+    margin-top: 10px;
+    min-height: 110px;
+}
+
+.webmobile.cms aside.contentheaderslide {
+    padding: 0 0 290px 0;
+}
+
+.webmobile.cms .pagescmscontent h2 {
+    margin-top: 5px;
+}
+
+.webmobile.cms .containerHebergement .btnblueResults {
+    width: 100%;
+}
+
+.webmobile.cms .recherchercms .categorieicon {
+    top: 134px;
+}
+
+.webmobile.tipopromotion .recherchercms .categorieicon {
+    top: 190px;
+}
+
+.webmobile.cms .containerHebergement .typehebergement {
+    font-size: 16px;
+}
+
+.webmobile.cms .is-one-fifth {
+    width: 100%;
+}
+
+.webmobile.cms .is-one-fifth img {
+    width: 75%!important;
+}
+
+.webmobile.cms .formResponsive .rsform-block-recaptotaixo .formBody {
+    margin: 0!important;
+}
+
+.webmobile #formaddNewsletterUser {
+    font-size: 14px;
+}
+
+.webmobile .formnewslmodal {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.webmobile .formnewslmodal>div {
+    padding: 10px 15px;
+}
+
+.webmobile .formnewslmodal form input,
+.webmobile .formnewslmodal form select {
+    padding: 1px!important;
+    margin: 2px 0!important;
+}
+
+.webmobile #formaddNewsletterUser input,
+.webmobile #formaddNewsletterUser form select,
+.webmobile #newscountry,
+.webmobile #formaddNewsletterUser #gender {
+    max-width: 170px;
+    min-width: 170px
+}
+
+.webmobile #formaddNewsletterUser>.bluetext {
+    margin: 5px 0;
+}
+
+.webmobile #formaddNewsletterUser>.bluetext,
+.webmobile #formaddNewsletterUser .nl-title {
+    margin: 2px 0;
+    font-size: 13px;
+}
+
+.webmobile .formnewslmodal form label {
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.webmobile #newsletter .formnewslmodal input[type=checkbox] {
+    min-width: 20px!important;
+}
+
+.webmobile .closnewsletter {
+    padding: 5px!important;
+    margin: 0px 8px 0 0;
+}
+
+.rechercherBtnWebcam {
+    border-radius: 5px;
+    background-color: #0d2146;
+    border: none;
+    cursor: pointer;
+    padding: 9px 15px 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 15px;
+    display: inline-block;
+}
+
+
+/** MEDIA ALTURAS **/
+
+@media (max-height:700px) {
+    .webmobile #navmenuprincipal {
+        top: 8%;
+    }
+}
+
+@media (max-height:650px) {
+    .webmobile #navmenuprincipal {
+        top: 9%;
+    }
+}
+
+@media (max-height:600px) {
+    .webmobile #navmenuprincipal {
+        top: 9.5%;
+    }
+}
+
+@media (max-height:550px) {
+    .webmobile #navmenuprincipal {
+        top: 10%;
+    }
+}
+
+@media (max-height:500px) {
+    .webmobile #navmenuprincipal {
+        top: 10.5%;
+    }
+}
+
+@media (max-height:450px) {
+    .webmobile #navmenuprincipal {
+        top: 11%;
+    }
+}
+
+.tipopromotion .appartement-caract>div {
+    padding: 10px 0;
+}
+
+.webmobile.cms .pagescmscontent p.discont {
+    font-size: 50px;
+}
+
+.webmobile.cms .pagescmscontent .dernieretext>p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+#resultsrechercher .descTitle {
+    padding: 15px;
+}
+
+.headerfichamobile .resultb-galleryicon {
+    position: absolute;
+    top: initial;
+    margin-left: 15px;
+    right: 70px;
+    background-color: #0d2146;
+    padding: 6px 11px;
+    border-radius: 8px;
+    z-index: 9;
+    bottom: 14px;
+}
+
+@media (max-width: 575.98px) {
+    .picto-person {
+        display: none !important;
+    }
+    #clubs .bulletinfotaxes {
+        display: none !important;
+    }
+    .decouvrir_btn {
+        right: 26px !important;
+    }
+    .prix_font {
+        font-size: 10px !important;
+    }
+}

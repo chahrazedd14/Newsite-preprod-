@@ -1,0 +1,101 @@
+lightgallery.css
+.lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html {
+    display:none;
+}
+/*******************************/
+style.css ligne (3531)
+.Partez-tout-schuss {
+    display: none;
+}
+.tipopromotion .votrecluboffretop {
+     padding: 0!important; ligne(6993)
+}
+/********retirer a vous à la montagne**********************/
+index.php
+<!-- <div class="container">
+	<?php if ($typemenu == 'campings') :
+	if ($this->countModules('rechercher')) : ?>
+	<div id="rechercher" ><jdoc:include type="modules" name="rechercher" /></div>
+	<?php endif; ?>
+	<?php endif; ?
+/***************a rajouté ************************/
+.modal-body p {
+    font-size: 16px;
+    font-weight: 500;;
+    margin: 20px 0 10px;
+}	
+
+
+/********vos envie menu**(vosenviephp)***********************/
+
+
+
+
+if(!empty($vosenvies)):
+	echo '<div class="row m-0 p-0">';
+		echo '<div class="col-12 col-lg-8 pl-4 pt-2">';
+				echo '<div class="row">';
+			foreach ($vosenvies as $envies) :
+
+				$item = $menu->getItem($envies->id);
+				$params = $item->params;
+				$imagen = $params->get('menu_image');
+				$img = ($imagen!='')? $imagen : 'images/menu/default.jpg' ;
+
+				echo '<div class="col-6 col-lg-4 p-2 text-left">';
+					echo '<a href="'.$lienlang.$envies->link.'" class="linkvosenvies"><img src="'.$img.'" alt="'.$envies->title.'" title="'.$envies->title.'" class="p-2 float-left" /><p>'.$envies->title.'</p></a>';
+				echo '</div>';
+			endforeach;
+				echo '</div>';
+		echo '</div>';
+
+echo '<div class="col-4 pr-0">';
+
+		if(!empty($promotion)):
+				echo '<a class="promotionhoverclub" href="'. $host.$lienlang.$promotion->alias. '" >';
+				if($promotion->imgpromotion !=''):
+					$promotion->img = $promotion->imgpromotion;
+				else:
+					$promotion->img = $host.'images/landingpages/vignettes/'.$directorio.'/default.jpg';
+				endif;
+			echo '<img src="'.$host.$promotion->img.'" alt="'.$promotion->nom. '" title="'.$promotion->nom. '" />';
+			echo '<div class="dernieretext">';
+			if($promotion->nom!=''):
+				echo '<p class="blanctext">'.$promotion->nom.'<br/>'.$promotion->subtitre.'</p>';
+				echo '<span class="tag blanctext">'.$promotion->tag.' '.$promotion->minprix.'</span>';
+				echo '<p class="bluebackground blanctext text-center promobutton">'.JText::_('MOD_CAMPINGS_OFFERS_PROFITEZ').'</p>';
+											
+
+			endif;
+
+			echo '</div>';
+
+
+			echo '</a>';
+		endif;
+
+
+echo '</div>'; //promo
+echo '</div>';
+endif;
+/************css (tag)*****************************/
+.votrecluboffretop {
+     padding: 0px!important; 
+}
+
+/*****bloc*********/
+   
+}
+.infoPistes {
+    
+ margin-left: 31px;   
+   
+}
+infoPistes .infos-columns {
+  max-width: 340px;
+    width: 340px;
+    padding: 25px;
+    border-radius: 5px;
+    float: left;
+}
+				
