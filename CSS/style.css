@@ -4999,13 +4999,39 @@ height: 180px; */
 
 .button-appartement {
     background-color: white;
-    width: 100%;
+    /* width: 100%; */
     min-width: 22px;
-    padding: 5px 0 !important;
+    /* padding: 5px 0 !important; */
 }
 
-.appartementsvotreclub .button-appartement {
+
+/* .appartementsvotreclub .button-appartement {
     background-color: #f6fcff;
+} */
+
+.button_info {
+    text-decoration: underline;
+    color: rgba(15, 143, 209, 1);
+    font-weight: 600 !important;
+}
+
+.appartement_club {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_appartement_tarifs {
+    padding: 2px 5px 0px;
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 3px;
+    /* position: absolute; */
+    /* top: 5px; */
+    width: 120px;
+    /* width: 70px; */
+    text-align: center;
+    border: 1px transparent;
 }
 
 .modal-dialog {

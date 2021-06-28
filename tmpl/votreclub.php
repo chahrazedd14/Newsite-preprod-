@@ -13,7 +13,7 @@
 defined('_JEXEC') or die;
 
 $mobile = (isset($_COOKIE['mobile'])) ? $_COOKIE['mobile'] : 0;
-$lang = ModCampingsHelper::getlang();
+$lang = ModCampingsHelper::getlang()
 $lienlang = ModCampingsHelper::getLienLang($lang);
 $hostimage = ModCampingsHelper::getHostImage();
 $page = ModCampingsHelper::getpage();
