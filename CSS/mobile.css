@@ -226,7 +226,7 @@
 
 .webmobile.etablessiments #resultsrechercher .containerHebergement .public-price {
     /* flex: 0 0 33.333333%;
-    max-width: 33.333333%; */
+   max-width: 33.333333%; */
     padding: 20px 7px 10px!important;
     border-top: 0;
 }
@@ -278,7 +278,7 @@
 
 .webmobile.etablessiments #resultsrechercher .containerHebergement .row>.reserveztext {
     /* flex: 0 0 66.666667%;
-    max-width: 66.666667%; */
+   max-width: 66.666667%; */
     padding: 25px 6px 17px;
     background-color: #0f8fd1;
 }
@@ -345,8 +345,8 @@
 
 
 /* .webmobile #navmenuprincipal .dropdown.show:first-child {
-    margin-bottom:90px;
- } */
+   margin-bottom:90px;
+} */
 
 .webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show {
     text-align: left;
@@ -388,9 +388,9 @@
 
 
 /* .webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies .imgmenureshot, .webmobile #navmenuprincipal .dropdown-menu2401 .linkvosenvies .imgmenureshot{
-    width:70%!important;
-    max-width:180px!important;
- } */
+   width:70%!important;
+   max-width:180px!important;
+} */
 
 .webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show .linkvosenvies p {
     color: white;
@@ -400,9 +400,9 @@
 
 
 /* .webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies p, .webmobile #navmenuprincipal .dropdown-menu2401 .linkvosenvies p {
-    margin-top: -2px!important;
-    padding: 0px 8px;
- } */
+   margin-top: -2px!important;
+   padding: 0px 8px;
+} */
 
 .webmobile #navmenuprincipal .dropdown-menu2401 .linkvosenvies p .bluetext,
 .webmobile #navmenuprincipal .dropdown-menu2400 .linkvosenvies p .greentext {
@@ -424,11 +424,11 @@
 
 
 /* .webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show a{
-    margin-bottom:20px;
- }
- .webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show a:last-child{
-    margin-bottom: 0;
- } */
+   margin-bottom:20px;
+}
+.webmobile #navmenuprincipal .dropdown.show .dropdown-menu.show a:last-child{
+   margin-bottom: 0;
+} */
 
 .webmobile #navmenuprincipal .dropdown-menu.show .moduletable {
     margin-top: 0;
@@ -1136,7 +1136,7 @@
     z-index: 9999;
     position: fixed;
     /* min-height: 185px;
-    max-height: 185px; */
+   max-height: 185px; */
     min-height: 150px;
     max-height: 150px;
     padding-right: 0;
@@ -1295,8 +1295,8 @@
 
 
 /* .webmobile #clubs .clubprice {
-    margin-top: 10px;
- } */
+   margin-top: 10px;
+} */
 
 
 /***** LANDINGPAGES *******/
@@ -1885,13 +1885,13 @@
 }
 
 .webmobile.etablessiment .appartementsvotreclub button {
-    width: 50%;
-    background-color: #e3f6ff!important;
-    padding: 10px!important;
+    /* width: 50%; */
+    /* background-color: #e3f6ff!important; */
+    /* padding: 10px!important; */
 }
 
 .webmobile.etablessiment .appartementsvotreclub .row.mr-1>div:nth-child(2) {
-    padding: 0px!important;
+    padding: 12px!important;
 }
 
 .webmobile.etablessiment .modal-dialog .btn-default {
